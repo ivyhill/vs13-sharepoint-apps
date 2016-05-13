@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Audit" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Audit" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x0100d541e92a609d44a0ba0b545a33ecdb89" Name="ListFieldsContentType">
+        <FieldRefs>
+          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+          <FieldRef ID="{5a4ba335-6184-4021-b076-bb927421bfb2}" Name="AuditNumber" />
+          <FieldRef ID="{332afb05-35a4-46d9-9b7a-f1ee568b86ff}" Name="AuditDate" />
+          <FieldRef ID="{10969500-b3b3-4f72-b98a-dee12347bcd9}" Name="AuditDepartment" />
+          <FieldRef ID="{c1c874bb-eb4e-4c76-a41e-0d2e549899ef}" Name="AuditSource" />
+        </FieldRefs>
+      </ContentType>
+      <ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{5a4ba335-6184-4021-b076-bb927421bfb2}" Name="AuditNumber" DisplayName="Audit Number" Type="Text" Required="FALSE" Group="Internal Audit Columns"></Field>
+      <Field ID="{332afb05-35a4-46d9-9b7a-f1ee568b86ff}" Name="AuditDate" DisplayName="Audit Date" Type="DateTime" Required="True" Group="Internal Audit Columns"></Field>
+      <Field ID="{10969500-b3b3-4f72-b98a-dee12347bcd9}" Name="AuditDepartment" DisplayName="Audit Department" Type="Choice" Required="True" Group="Internal Audit Columns">
+        <CHOICES>
+          <CHOICE>Business Development</CHOICE>
+          <CHOICE>Finance/Accounting</CHOICE>
+          <CHOICE>Facilities</CHOICE>
+          <CHOICE>IT</CHOICE>
+        </CHOICES>
+        <MAPPINGS>
+          <MAPPING Value="1">Business Development</MAPPING>
+          <MAPPING Value="2">Finance/Accounting</MAPPING>
+          <MAPPING Value="3">Facilities</MAPPING>
+          <MAPPING Value="4">IT</MAPPING>
+        </MAPPINGS>
+        <Default>IT</Default>
+      </Field>
+      <Field ID="{c1c874bb-eb4e-4c76-a41e-0d2e549899ef}" Name="AuditSource" DisplayName="Audit Source" Type="Choice" Required="FALSE" Group="Custom Site Columns" JSLink="~site/Scripts/SourceRendering.js">
+        <CHOICES>
+          <CHOICE>P-AF-0001</CHOICE>
+          <CHOICE>P-BD-0001</CHOICE>
+          <CHOICE>P-QM-0001</CHOICE>
+        </CHOICES>
+        <MAPPINGS>
+          <MAPPING Value="1">P-AF-0001</MAPPING>
+          <MAPPING Value="2">P-BD-0001</MAPPING>
+          <MAPPING Value="3">P-QM-0001</MAPPING>
+        </MAPPINGS>
+        <Default>P-BD-0001</Default>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+          <FieldRef Name="AuditNumber" />
+          <FieldRef Name="AuditDate" />
+          <FieldRef Name="AuditDepartment" />
+          <FieldRef Name="AuditSource" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="ID" />
+          <FieldRef Name="LinkTitle" />
+          <FieldRef Name="AuditNumber" />
+          <FieldRef Name="AuditDate" />
+          <FieldRef Name="AuditDepartment" />
+          <FieldRef Name="AuditSource" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="ID"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="AuditEditForm.aspx" Path="AuditEditForm.aspx" WebPartZoneID="Main" UseLegacyForm="FALSE" />
+      <Form Type="NewForm" Url="AuditNewForm.aspx" Path="AuditNewForm.aspx" WebPartZoneID="Main" UseLegacyForm="FALSE" />
+    </Forms>
+  </MetaData>
+</List>

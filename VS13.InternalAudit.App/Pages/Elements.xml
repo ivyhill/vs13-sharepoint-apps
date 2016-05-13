@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE">
+      <AllUsersWebPart WebPartZoneID="WebPartZone1" WebPartOrder="1">
+        <![CDATA[
+          <webParts>
+            <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+              <metaData>
+                <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+              </metaData>
+              <data>
+                <properties>
+                  <property name="ListUrl">Lists/InternalAudits</property>
+                  <property name="IsIncluded">True</property>
+                  <property name="NoDefaultStyle">True</property>
+                  <property name="Title">Audits</property>
+                  <property name="PageType">PAGE_NORMALVIEW</property>
+                  <property name="Default">False</property>
+                  <property name="ViewContentTypeId">0x</property>
+                </properties>
+              </data>
+            </webPart>
+          </webParts>
+        ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="WebPartZone2" WebPartOrder="2">
+        <![CDATA[
+          <webParts>
+            <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+              <metaData>
+                <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+              </metaData>
+              <data>
+                <properties>
+                  <property name="ListUrl">Lists/CriteriaItemsTemplates</property>
+                  <property name="IsIncluded">True</property>
+                  <property name="NoDefaultStyle">True</property>
+                  <property name="Title">Criteria Items Templates</property>
+                  <property name="PageType">PAGE_NORMALVIEW</property>
+                  <property name="Default">False</property>
+                  <property name="ViewContentTypeId">0x</property>
+                </properties>
+              </data>
+            </webPart>
+          </webParts>
+        ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartZoneID="WebPartZone3" WebPartOrder="3">
+        <![CDATA[
+          <webParts>
+            <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+              <metaData>
+                <type name="Microsoft.SharePoint.WebPartPages.XsltListViewWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+              </metaData>
+              <data>
+                <properties>
+                  <property name="ListUrl">Lists/CriteriaItems</property>
+                  <property name="IsIncluded">True</property>
+                  <property name="NoDefaultStyle">True</property>
+                  <property name="Title">Criteria Items</property>
+                  <property name="PageType">PAGE_NORMALVIEW</property>
+                  <property name="Default">False</property>
+                  <property name="ViewContentTypeId">0x</property>
+                </properties>
+              </data>
+            </webPart>
+          </webParts>
+        ]]>
+      </AllUsersWebPart>
+    </File>
+  </Module>
+</Elements>

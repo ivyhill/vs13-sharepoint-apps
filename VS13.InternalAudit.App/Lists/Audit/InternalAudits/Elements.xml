@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Audit" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/InternalAudits" Description="Internal Audits">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ID">0</Field>
+          <Field Name="Title">16000</Field>
+          <Field Name="AuditNumber">16000</Field>
+          <Field Name="AuditDate">4/6/2016</Field>
+          <Field Name="AuditDepartment">Finance/Accounting</Field>
+          <Field Name="AuditSource">P-QM-0001</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

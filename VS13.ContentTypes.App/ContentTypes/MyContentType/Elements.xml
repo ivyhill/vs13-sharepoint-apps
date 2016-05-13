@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100CCD3BB729BA14CE98DFE8B47B12F8F07" Name="MyContentType" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" DisplayName="$Resources:core,Title;" Name="LinkTitle" ReadOnly="TRUE" />
+      <FieldRef ID="{138e9e65-f75d-4128-9733-0149d0796094}" DisplayName="My City" Required="FALSE" Name="MyCity" />
+      <FieldRef ID="{b732bc1e-aed5-47f5-a487-cfe23183b47d}" DisplayName="My State" Required="TRUE" Name="MyState" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

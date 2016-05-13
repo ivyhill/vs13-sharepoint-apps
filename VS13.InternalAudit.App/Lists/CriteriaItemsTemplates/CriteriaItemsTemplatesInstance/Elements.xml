@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Criteria Items Templates" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/CriteriaItemsTemplates" Description="Audit criteria items templates">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">QM-01</Field>
+          <Field Name="Question">Is the documented business development process P-BD-0001 current/released?</Field>
+          <Field Name="Source">P-QM-0001</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">QM-02</Field>
+          <Field Name="Question">P-BD-0001, is the purpose of the document clearly stated?</Field>
+          <Field Name="Source">P-QM-0001</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BD-01</Field>
+          <Field Name="Question">Have the roles and responsibilities of the team been clearly defined?</Field>
+          <Field Name="Source">P-BD-0001</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BD-02</Field>
+          <Field Name="Question">Are client meetings scheduled and tracked for opportunity identification?</Field>
+          <Field Name="Source">P-BD-0001</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">BD-03</Field>
+          <Field Name="Question">Does the capture manager use the following tools for opportunity Identification? A. Corporate capabilities Flyer B. Quality Assurance capabilities flyer C. Dextera HR capabilities Statement</Field>
+          <Field Name="Source">P-BD-0001</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

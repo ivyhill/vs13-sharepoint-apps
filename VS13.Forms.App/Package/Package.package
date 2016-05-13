@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="e186958d-6d09-4107-a72b-1c0578265734" 
+        solutionId="e186958d-6d09-4107-a72b-1c0578265734" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="VS13.Forms.App"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="575f5653-f8f8-48b9-93cb-41b8f2aa9134" />
+  </features>
+</package>

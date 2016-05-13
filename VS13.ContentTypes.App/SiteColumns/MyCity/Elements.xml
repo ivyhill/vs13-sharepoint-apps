@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{138e9e65-f75d-4128-9733-0149d0796094}"
+       Name="MyCity"
+       Title="MyCityTitle"
+       DisplayName="My City"
+       Type="Text"
+       Required="FALSE"
+       Group="My Site Columns">
+  </Field>
+</Elements>

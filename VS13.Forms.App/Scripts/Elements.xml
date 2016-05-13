@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\newform.js" Url="Scripts/newform.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\editform.js" Url="Scripts/editform.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

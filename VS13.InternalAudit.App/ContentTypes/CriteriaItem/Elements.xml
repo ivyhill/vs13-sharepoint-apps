@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01005BC6F07B19CA468C8650D6B42AB56682" Name="CriteriaItem" Group="Internal Audit Types" Description="Audit criteria item" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{86731c1c-6237-4028-a030-46b62a881ffb}" DisplayName="Title" Required="FALSE" Name="CL-ID" />
+      <FieldRef ID="{308cce6e-27cb-4185-a349-ea06a57996db}" DisplayName="Question" Required="FALSE" Name="Question" />
+      <FieldRef ID="{9743e3c0-6d91-4ea5-b4d1-d969092ba920}" DisplayName="Source" Required="FALSE" Name="Source" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

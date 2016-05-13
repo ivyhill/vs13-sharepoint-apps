@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPages">
+    <File Path="MasterPages\AuditApp.master" Url="_catalogs/masterpage/AuditApp.master" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

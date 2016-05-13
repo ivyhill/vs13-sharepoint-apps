@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="MasterPages">
+    <File Path="MasterPages\v4.master" Url="_catalogs/masterpage/v4.master" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+    <File Path="MasterPages\minimal.master" Url="_catalogs/masterpage/minimal.master" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+    <File Path="MasterPages\oslo.master" Url="_catalogs/masterpage/oslo.master" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+    <File Path="MasterPages\seattle.master" Url="_catalogs/masterpage/seattle.master" ReplaceContent="TRUE" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

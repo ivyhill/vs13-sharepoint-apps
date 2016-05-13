@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{10969500-b3b3-4f72-b98a-dee12347bcd9}"
+       Name="AuditDepartment"
+       DisplayName="Audit Department"
+       Type="Choice"
+       Required="FALSE"
+       Group="Internal Audit Columns">
+    <CHOICES>
+      <CHOICE>Business Development</CHOICE>
+      <CHOICE>Finance/Accounting</CHOICE>
+      <CHOICE>Facilities</CHOICE>
+      <CHOICE>IT</CHOICE>
+    </CHOICES>
+    <MAPPINGS>
+      <MAPPING Value="1">Business Development</MAPPING>
+      <MAPPING Value="2">Finance/Accounting</MAPPING>
+      <MAPPING Value="3">Facilities</MAPPING>
+      <MAPPING Value="4">IT</MAPPING>
+    </MAPPINGS>
+    <Default>IT</Default>
+  </Field>
+</Elements>

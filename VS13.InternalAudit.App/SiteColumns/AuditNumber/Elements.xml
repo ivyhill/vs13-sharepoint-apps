@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{5a4ba335-6184-4021-b076-bb927421bfb2}"
+       Name="AuditNumber"
+       DisplayName="Audit Number"
+       Type="Text"
+       Required="FALSE"
+       Group="Internal Audit Columns">
+  </Field>
+</Elements>

@@ -1,0 +1,6 @@
+﻿Create project
+Add MyList
+  <Form Type="NewForm" Url="MyNewForm.aspx" Path="MyNewForm.aspx" WebPartZoneID="Main" UseLegacyForm="FALSE" />
+Add MyNewForm.aspx under MyList path
+  DeploymentType=ElementFile
+  <WebPartPages:WebPartZone ID="Main" runat="server" FrameType="None" Title="loc:Main" />

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0ffe5f18-d819-4970-9555-31e3afc9c9cb" solutionId="0ffe5f18-d819-4970-9555-31e3afc9c9cb" resetWebServer="false" sharePointProductVersion="16.0" name="VS13.InternalAudit.App" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="144dcc33-a055-40ba-9a62-419a40a76c08" />
+    <featureReference itemId="6f6f3cac-b43f-4625-a009-fc5177394ca0" />
+    <featureReference itemId="e1ee33f9-09a9-4e9e-8cec-11be5dd0ea53" />
+  </features>
+</package>

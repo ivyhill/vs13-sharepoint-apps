@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{332afb05-35a4-46d9-9b7a-f1ee568b86ff}"
+       Name="AuditDate"
+       DisplayName="Audit Date"
+       Type="DateTime"
+       Required="FALSE"
+       Group="Internal Audit Columns">
+  </Field>
+</Elements>

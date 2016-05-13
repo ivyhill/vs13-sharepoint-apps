@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9743e3c0-6d91-4ea5-b4d1-d969092ba920}"
+       Name="Source"
+       DisplayName="Source"
+       Type="Choice"
+       Required="FALSE"
+       Group="Internal Audit Columns">
+    <CHOICES>
+      <CHOICE>P-AF-0001</CHOICE>
+      <CHOICE>P-BD-0001</CHOICE>
+      <CHOICE>P-QM-0001</CHOICE>
+    </CHOICES>
+    <MAPPINGS>
+      <MAPPING Value="1">P-AF-0001</MAPPING>
+      <MAPPING Value="2">P-BD-0001</MAPPING>
+      <MAPPING Value="3">P-QM-0001</MAPPING>
+    </MAPPINGS>
+    <Default>P-BD-0001</Default>
+  </Field>
+</Elements>

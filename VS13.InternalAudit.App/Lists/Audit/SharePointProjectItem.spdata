@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.ListDefinition" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Audit\" Type="ElementManifest" />
+    <ProjectItemFile Source="Schema.xml" Target="Audit\" Type="ElementFile" />
+    <ProjectItemFile Source="AuditEditForm.aspx" Target="Audit\" Type="ElementFile" />
+    <ProjectItemFile Source="AuditNewForm.aspx" Target="Audit\" Type="ElementFile" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="Microsoft.VisualStudio.SharePoint.ListSettings.ListFieldsContentTypeID" Value="0x0100d541e92a609d44a0ba0b545a33ecdb89" />
+  </ExtensionData>
+</ProjectItem>
