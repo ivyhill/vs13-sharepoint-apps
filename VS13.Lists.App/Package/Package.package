@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="fb14fe69-a0d2-4ad4-a71d-81f7272cdedb" 
+        solutionId="fb14fe69-a0d2-4ad4-a71d-81f7272cdedb" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="VS13.Lists.App"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="1b63d8f4-4832-486d-ab89-df8974671fcd" />
+  </features>
+</package>

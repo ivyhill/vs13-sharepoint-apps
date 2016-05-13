@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="My List" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/MyList" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Kathy Heary</Field>
+          <Field Name="MyCity">Aberdeen</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">James Heary</Field>
+          <Field Name="MyCity">Matawan</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Joseph Heary</Field>
+          <Field Name="MyCity">New Providence</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Carolyn Heary</Field>
+          <Field Name="MyCity">Hoboken</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Peggy Heary</Field>
+          <Field Name="MyCity">Aberdeen</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

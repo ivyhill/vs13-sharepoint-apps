@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b732bc1e-aed5-47f5-a487-cfe23183b47d}"
+       Name="MyState"
+       Title="MyStateTitle"
+       DisplayName="My State"
+       Type="Choice"
+       Required="TRUE"
+       Group="My Site Columns">
+    <CHOICES>
+      <CHOICE>NJ</CHOICE>
+      <CHOICE>NY</CHOICE>
+      <CHOICE>PA</CHOICE>
+    </CHOICES>
+    <MAPPINGS>
+      <MAPPING Value="1">NJ</MAPPING>
+      <MAPPING Value="2">NY</MAPPING>
+      <MAPPING Value="3">PA</MAPPING>
+    </MAPPINGS>
+    <Default>NJ</Default>
+  </Field>
+</Elements>
