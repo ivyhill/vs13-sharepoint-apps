@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\Main\App.js" Url="Scripts/Main/App.js" />
+    <File Path="Scripts\_references.js" Url="Scripts/_references.js" />
+<File Path="Scripts\Controller\Controller.js" Url="Scripts/Controller/Controller.js" />
+<File Path="Scripts\Main\jsrender.js" Url="Scripts/Main/jsrender.js" />
+<File Path="Scripts\Model\Operator.js" Url="Scripts/Model/Operator.js" />
+<File Path="Scripts\View\FormFiller.js" Url="Scripts/View/FormFiller.js" />
+<File Path="Scripts\View\TableRenderer.js" Url="Scripts/View/TableRenderer.js" />
+</Module>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     ProductID="{3c7f0e17-a105-42e5-875c-41017ad6c840}" 
+     Version="1.0.0.0" 
+     SharePointMinVersion="15.0.0.0" 
+     Name="RESTCRUD">
+  <Properties>
+    <Title>REST CRUD APP Sample</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+</App>

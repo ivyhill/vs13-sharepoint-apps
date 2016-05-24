@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Main\App.js" Target="Scripts\Main\" Type="ElementFile" />
+    <ProjectItemFile Source="_references.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="Controller\Controller.js" Target="Scripts\Controller\" Type="ElementFile" />
+    <ProjectItemFile Source="Main\jsrender.js" Target="Scripts\Main\" Type="ElementFile" />
+    <ProjectItemFile Source="Model\Operator.js" Target="Scripts\Model\" Type="ElementFile" />
+    <ProjectItemFile Source="View\FormFiller.js" Target="Scripts\View\" Type="ElementFile" />
+    <ProjectItemFile Source="View\TableRenderer.js" Target="Scripts\View\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
